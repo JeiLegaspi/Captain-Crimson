@@ -1,8 +1,7 @@
 package com.example.captaincrimson;
 
-public class easyLevel {
-
+public class enemiesFloating {
     public static void main(String[] args) {
-        int mySpeed = 1;
+
     }
 }
