@@ -19,6 +19,15 @@ public class BitmapBank {
 
     //Return Background Height
     public int getBackgroundHeight(){
+
         return background.getHeight();
+    }
+
+    public void setBackground(Bitmap bitbackground) {
+        this.background = background;
+    }
+
+    public Bitmap getBackground() {
+        return background;
     }
 }

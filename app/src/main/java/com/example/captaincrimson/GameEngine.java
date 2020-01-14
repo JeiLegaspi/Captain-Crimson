@@ -15,7 +15,7 @@ public class GameEngine {
         if (backgroundImage.getX() < - AppConstants.getBitmapBank().getBackgroundWidth()){
             backgroundImage.setX(0);
         }
-        //canvas.drawBitmap(AppConstants.getBitmapBank().getBackground() , backgroundImage.getX(), backgroundImage.getY(), null);
+       canvas.drawBitmap(AppConstants.getBitmapBank().getBackground(), backgroundImage.getX(), backgroundImage.getY(), null);
 
     }
 }
